@@ -19,6 +19,10 @@ class Error {
     
     private var saveErrorForUserService = [Err]()
     
+    
+    
+    
+    
     init() {
         knownError["UserService"] = Err.UserService(true)
     }
